@@ -1,0 +1,45 @@
+/*styles.css v 0.1*/
+/*Logan Barsell*/
+.jumbotron {
+	color: white;
+	border: 8px groove darkred;
+	background: url("../Images/Jumbotron/bgi.jpeg") no-repeat center center;
+}
+.jumbotron h1 {
+	text-shadow: 2px 2px darkred;
+}
+.intro img {
+	width: 20%;
+	float: left;
+	box-shadow: 2px 2px 10px 2px darkgray;
+	margin: 15px;
+	margin-left: 0px;
+	border-radius: 90px;
+}
+.intro p {
+margin-top: ;
+}
+	
+
+}
+.accordion {
+	font-weight: bold;	
+}
+.accordion:hover {
+	text-decoration: underline;
+}
+.answer {
+	color: blue;
+	display: none;
+}
+.readMore {
+	color: darkblue;
+	text-shadow: .5px .5px black;
+}
+.readMore:hover {
+	color: purple;
+}
+.more {
+	display: none;
+	color: darkred;
+}
