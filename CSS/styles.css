@@ -1,45 +1,249 @@
 /*styles.css v 0.1*/
 /*Logan Barsell*/
+#mainTitle {
+	margin-top: 50px
+}
+/*Jumbotron*/
 .jumbotron {
 	color: white;
-	border: 8px groove darkred;
-	background: url("../Images/Jumbotron/bgi.jpeg") no-repeat center center;
+	background: url("../Images/Jumbotron/headerimg.jpg") no-repeat center center;
+	background-size: 100%;
+	text-align: center;
+	border-radius: 11px;
+	box-shadow: 2px 2px 10px 2px black;
+	margin-bottom: 0px;
 }
 .jumbotron h1 {
-	text-shadow: 2px 2px darkred;
+	text-shadow: 2px 2px black;
 }
-.intro img {
-	width: 20%;
-	float: left;
-	box-shadow: 2px 2px 10px 2px darkgray;
+.jumbotron p {
+	margin-left: 5px;
+	text-shadow: 1px 1px black;
+}
+.navbar {
+	position: absolute;
+	right: 0px;
+}
+.navbar a {
+	color: lightgreen;
+	background-color: white;
+	text-shadow: 1px 1px black;
+	display: inline;
+	float: right;
+	padding: 5px 10px 5px 10px;
+	border:2px solid gray ;
+	border-top: none;
+	border-right: none;
+	border-radius: 11px;
+	box-shadow: 2px 2px 15px 2px black;
+}
+.sticky {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	border-top: 0;
+}
+/*Logan Barsell*/
+h1 {
+	margin-top: 0px;
+	margin-left: 5px;
+	text-shadow: 1px 1px darkgray;
+}
+/*Web Developer*/
+h3 {
+	margin-left: 25px;
+	margin-top: -5px;
+	text-shadow: 1px 1px turquoise;
+}
+.me {
+	
+	width: 200px;
+	box-shadow: 2px 2px 10px 2px gray;
 	margin: 15px;
-	margin-left: 0px;
+	margin-left: 12px;
 	border-radius: 90px;
 }
-.intro p {
-margin-top: ;
+/*About Me*/	
+.bio h2 {
+	margin: 10px 20px 10px 260px;
+	float: left;
+	position: relative;
+	top: -480px;
+	right: 1%;
 }
-	
+.bio p {
+	text-indent: 50px;
+	margin: 10px 20px 10px 260px;
+	float: right;
+	position: relative;
+	top: -470px;
+	right: 1%;
+}
+/*Side Bar*/	
+.sideBar {
+	width: 200px;
+	text-align: center;
+	margin-left: 13px;
+	margin-top: auto;
+	background-color: transparent;
+	margin-top: 5px;
+}
+.sideBar a {
+	display: block;
+	font-size: 20px;
+	color: black;
+	border-radius: 5px;
+	text-shadow: .5px .5px purple;
+	transition-duration: 0.5s;
+}
+.sideBar a:hover{
+background-color: black;
+color: white;
+text-shadow: .5px .5px turquoise;
+border-radius: 5px;
+}
+	/*FAQ*/
+.faq {
+float: left;
+position: relative;
+top: -470px;
+left: 253px;
+margin-right: 5px; 
+}
+.question {
+	font-weight: bold;
+	position: relative;
+	right: 1%;
 
 }
-.accordion {
-	font-weight: bold;	
-}
-.accordion:hover {
+.question:hover {
 	text-decoration: underline;
 }
 .answer {
 	color: blue;
 	display: none;
+	position: relative;
+	right: 1%;
 }
 .readMore {
 	color: darkblue;
 	text-shadow: .5px .5px black;
 }
 .readMore:hover {
-	color: purple;
+	color: turquoise;
+}
+.readLess {
+	color: darkblue;
+	text-shadow: .5px .5px black;
+}
+.readLess:hover {
+	color:blue;
+	text-shadow: .5px .5px black;
 }
 .more {
 	display: none;
-	color: darkred;
+	color: purple;
+	width: 680px;
+
+}
+
+/*map*/
+iframe {
+	border: 2px solid black;
+}
+.contact {
+float: left;
+position: relative;
+top: -470px;
+left: 253px;
+}
+.contactInfo {
+	float: right;
+	margin-left: 10px;
+}
+.contactInfo a {
+	color: black;
+	text-shadow: .5px .5px turquoise
+}
+.email{
+	border-bottom: 1px solid black;
+}
+.icons i {
+margin-right: 10px;
+}
+/*Crimson and Clover*/
+.colleagues {
+float: left;
+position: relative;
+top: -470px;
+}
+.colleagues h2 {
+	margin-left: 253px;
+}
+.colleagues p {
+	position: relative;
+	top: 75px;
+}
+.container {
+	width: 250px;
+	height: 250px;
+	cursor:pointer;
+	float: left;
+	margin-right: 40px;
+	z-index: 105;
+}	
+.crimson, .clover {
+	display:inline-block;
+	margin-left: 253px;
+}
+/*Clover*/
+#gpic1 {
+	background: gray url("../Images/Team/Colleagues/clover.jpg") no-repeat center center;
+	background-size: cover;
+	border-radius: 180px;
+	margin: 20px 10px;
+	float: left;
+	box-shadow: 2px 2px 10px 2px darkgreen;
+	position: relative;
+	right: 60px;
+}
+.cloverP strong {
+	font-size: 40px;
+}
+/*Crimson*/
+#crimson {
+float: right;
+margin-right: 115px;
+}
+.crimson {
+	margin-top: 25px;
+}
+.crimsonP strong {
+	font-size: 40px;
+}
+
+#gpic2 {
+	background: gray url("../Images/Team/Colleagues/crimson.jpg") no-repeat center center;
+	background-size: cover;	
+	border-radius: 180px;
+	margin: 20px 10px;
+	float: left;
+	box-shadow: 2px 2px 10px 2px darkred;
+	position: relative;
+	right: 60px;
+}
+.close {
+	z-index: 2;
+	position: fixed;
+	cursor: pointer;
+	top: 0;
+	right: 0;
+	width: 70px;
+	height: 70px;
+	background: url("../Images/Team/Colleagues/redX.png") no-repeat center center;
+	background-size: contain;
+	margin: 20px;
+	display: none;
 }
