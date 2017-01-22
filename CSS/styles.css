@@ -41,7 +41,7 @@
 	position: fixed;
 	width: 100%;
 	left: 0;
-	top: 0;
+	top: 0px;
 	z-index: 100;
 	border-top: 0;
 }
@@ -89,6 +89,8 @@ h3 {
 	margin-top: auto;
 	background-color: transparent;
 	margin-top: 5px;
+
+
 }
 .sideBar a {
 	display: block;
@@ -96,10 +98,9 @@ h3 {
 	color: black;
 	border-radius: 5px;
 	text-shadow: .5px .5px purple;
-	transition-duration: 0.5s;
+	transition-duration: 1s;
 }
 .sideBar a:hover{
-background-color: black;
 color: white;
 text-shadow: .5px .5px turquoise;
 border-radius: 5px;
@@ -180,7 +181,7 @@ position: relative;
 top: -470px;
 }
 .colleagues h2 {
-	margin-left: 253px;
+	margin-left: 243px;
 }
 .colleagues p {
 	position: relative;
@@ -196,7 +197,7 @@ top: -470px;
 }	
 .crimson, .clover {
 	display:inline-block;
-	margin-left: 253px;
+	margin-left: 245px;
 }
 /*Clover*/
 #gpic1 {
